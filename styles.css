@@ -183,9 +183,10 @@ a:matches(:hover, :active) {
 }
 .headline1 {
   display: flex;
-  width: 423px;
-  margin: 18px 0;
-  padding: 10px 0;
+  width: 506px;
+  height: 40px;
+  box-sizing: border-box;
+  margin: auto;
 }
 .headline2 {
   margin: 18px 0;
@@ -250,4 +251,7 @@ p.link1 {
 .Logo-icons {
   display: flex;
   align-items: center;
+}
+p > .link3 + .link3 {
+  margin-left: 28px;
 }
