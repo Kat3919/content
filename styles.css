@@ -86,33 +86,31 @@
   font-weight: 700;
   width: 156px;
   margin: 10px;
+  text-align: center;
 }
 p {
   font-family: Roboto;
   font-size: 17px;
   font-weight: 400;
 }
-.underline {
-  width: 315px;
-  height: 24px;
-  padding-top: 10px;
-}
+
 p.box-underline {
   text-decoration-line: underline;
-  width: 92px;
-  height: 20px;
-  box-sizing: border-box;
+  text-align: center;
   font-weight: 700;
+  margin: auto;
 }
 .box-text3 {
   font-weight: 700;
   width: 151px;
   margin: 10px;
+  text-align: center;
 }
 .box-text4 {
   font-weight: 700;
   width: 164px;
   margin: 10px;
+  text-align: center;
 }
 
 .layout1 {
