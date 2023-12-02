@@ -3,6 +3,7 @@
   height: 1094px;
   background-color: #08263f;
   box-sizing: border-box;
+  margin: auto;
 }
 .text1 {
   color: #fed097;
@@ -20,4 +21,9 @@
   padding-top: 39px;
   padding-bottom: 96px;
   margin: 0;
+}
+img {
+  width: 1407px;
+  height: 580px;
+  padding-left: 16px;
 }
