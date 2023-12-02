@@ -88,11 +88,9 @@
   margin: 10px;
 }
 p {
-  text-align: center;
   font-family: Roboto;
   font-size: 17px;
   font-weight: 400;
-  margin: auto;
 }
 .underline {
   width: 315px;
@@ -172,31 +170,50 @@ a:matches(:hover, :active) {
 }
 
 .layout2 {
+  /* 1 блок */
+
   width: 1440px;
   height: 56px;
   margin: auto;
 }
 .boxs-1 {
   display: flex;
-  width: 1064px;
   height: 56px;
+  margin: 0 auto;
 }
 .headline1 {
-  display: flex;
-  width: 506px;
-  height: 40px;
-  box-sizing: border-box;
+  /* левый блок заголовка*/
   margin: auto;
+  list-style-type: none;
+  display: flex;
+}
+li {
+  height: 27px;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 26.4px;
+}
+li > a {
+  text-decoration: none;
+  margin-left: 28px;
+}
+.headline1 > .picture {
+  margin-left: 140px;
 }
 .headline2 {
-  margin: 18px 0;
+  /* правый блок заголовка */
+  margin: auto;
 }
-
-p > a {
-  text-decoration: none;
+.Logo-icons {
+  width: 492px;
+  height: 25px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
 }
 
 .images {
+  /* основной контент*/
   display: flex;
   width: 1088px;
   justify-content: center;
@@ -207,9 +224,7 @@ p > a {
   background: #f0efeb;
 }
 .text {
-  width: 544px;
-  height: 374.188px;
-  margin: 90px 0 0 90px;
+  margin: 0 0 0 130px;
 }
 p.heading1,
 p.heading2 {
@@ -224,7 +239,6 @@ p.heading2 {
 }
 p.main-part1 {
   color: #000;
-
   font-family: Roboto;
   font-size: 24px;
   font-style: normal;
@@ -232,26 +246,16 @@ p.main-part1 {
   line-height: normal;
   width: 481px;
   height: 56px;
-  margin: 42px 0 0 0;
   text-align: left;
 }
-p.link1 {
+p.link1 a {
   width: 129px;
   margin: 25px 0 0 0;
   border-radius: 100px;
   border: 1px solid #000;
-  background: #cb8181;
+  background: #0e0505;
   padding: 7px 0;
   box-sizing: border-box;
-}
-/*a:matches(:link, :visited) {
-    color: #fff;
-  }
-  */
-.Logo-icons {
-  display: flex;
-  align-items: center;
-}
-p > .link3 + .link3 {
-  margin-left: 28px;
+  color: #f0efeb;
+  text-decoration: none;
 }
