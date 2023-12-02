@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+}
+
+.background {
+  width: 1442px;
+  height: 700px;
+  background: #211856;
+  margin: auto;
+}
+/* левая секция */
+.text {
+  width: 470px;
+  height: 280px;
+}
+.text1 {
+  color: var(--T2, #99efd0);
+  font-family: Inter, sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 50px;
+  width: 470px;
+  margin: auto;
+}
+.text1 span {
+  color: var(--Base, #f2994a);
+}
+.text2 {
+  color: var(--T1, #8476aa);
+  font-family: Rubik, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  width: 470px;
+  margin: auto;
+  padding-top: 32px;
+}
+.button-text {
+  border-radius: 3px;
+  background: #f2994a;
+  box-shadow: -11.09px 18.13px 36.648px 0px;
+  width: 155px;
+  height: 48px;
+  color: #fff;
+  text-align: center;
+  font-family: Rubik, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 43px;
+}
+/* правая секция */
