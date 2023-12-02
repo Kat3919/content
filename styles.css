@@ -191,6 +191,7 @@ a:matches(:hover, :active) {
   margin: auto;
   list-style-type: none;
   display: flex;
+  padding: 0;
 }
 li {
   height: 27px;

@@ -1,0 +1,22 @@
+.background {
+  width: 1440px;
+  height: 1094px;
+  background-color: #08263f;
+  box-sizing: border-box;
+}
+.text1 {
+  color: #fed097;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  padding-top: 114px;
+  margin: 0;
+}
+.text2 {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  padding-top: 39px;
+  padding-bottom: 96px;
+}
