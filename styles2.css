@@ -6,7 +6,10 @@ body {
   width: 1442px;
   height: 700px;
   background: #211856;
-  margin: auto;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* левая секция */
 .text {
@@ -49,6 +52,49 @@ body {
   line-height: 20px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  margin-top: 43px;
+  margin-top: 65px;
 }
 /* правая секция */
+.pictures {
+  width: 441px;
+  height: 400px;
+  position: relative;
+  margin-left: 58px;
+}
+img.diagram {
+  border-radius: 8.939px;
+  background: #1d2067;
+  box-shadow: -7.151px 14.302px 53.632px 0px rgba(82, 114, 139, 0.24);
+  position: absolute;
+  width: 232px;
+  height: 225px;
+  bottom: 152px;
+  z-index: 3;
+}
+img.plot {
+  position: absolute;
+  width: 286.035px;
+  height: 357.544px;
+  border-radius: 10px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  left: 107px;
+  top: 0;
+  z-index: 2;
+}
+img.points {
+  position: absolute;
+  width: 139.442px;
+  height: 152.85px;
+  background: #96a8ea;
+  left: 301px;
+  top: 247px;
+}
+img.arrow {
+  position: absolute;
+  width: 89px;
+  height: 80px;
+  top: 318px;
+  left: 143px;
+  z-index: 3;
+  background-color: #13c296;
+}
