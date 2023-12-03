@@ -74,6 +74,9 @@ a {
   display: inline-block;
   transition: transform 0.3s ease;
 }
+a:hover {
+  transform: scale(1.3);
+}
 .box1-question,
 .box2-question {
   color: #090808;
@@ -109,23 +112,21 @@ a {
   margin: 8px 8px 8px 48px;
   box-sizing: border-box;
 }
-.button-text a {
+.button-text {
   color: #fff;
   text-align: center;
   margin: 22px 40px 26px 65px;
 }
-.button-text a::before {
+.button-text::before {
   content: "";
   background: url(Frame-8.png);
   position: absolute;
   width: 17px;
   height: 16px;
   right: 103px;
-  bottom: 37px;
+  bottom: 32px;
 }
-a:hover {
-  transform: scale(1.3);
-}
+
 .picture {
   width: 676px;
   height: 642px;
