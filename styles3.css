@@ -99,7 +99,7 @@ a:hover {
 }
 .box2::before {
   content: "";
-  background: url(Rectangle-3.png);
+  background: url(Layout\ 3/Rectangle-3.png);
   position: absolute;
   width: 1px;
   height: 36px;
@@ -119,7 +119,7 @@ a:hover {
 }
 .button-text::before {
   content: "";
-  background: url(Frame-8.png);
+  background: url(Layout\ 3/Frame-8.png);
   position: absolute;
   width: 17px;
   height: 16px;
