@@ -261,4 +261,6 @@ p.link1 a {
   box-sizing: border-box;
   color: #f0efeb;
   text-decoration: none;
+  display: block;
+  text-align: center;
 }
