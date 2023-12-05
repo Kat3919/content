@@ -1,0 +1,85 @@
+.background {
+  width: 1920px;
+  height: 1209px;
+}
+
+p.slogan-text {
+  color: #272d4e;
+  text-align: center;
+  font-family: Circular Std, sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 70px;
+  margin: 138px 0;
+}
+.main {
+  width: 730px;
+  height: 391px;
+  margin: 103px 595px 437px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 18px 52.854px 0px rgba(215, 228, 249, 0.5);
+  position: relative;
+  display: block;
+}
+
+.main-text {
+  width: 566px;
+  color: #94a2b3;
+  text-align: center;
+  font-family: Circular Std;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 39.5px;
+  margin: 106px 82px 87px;
+  position: absolute;
+  z-index: 4;
+}
+img.quotation-marks {
+  position: absolute;
+  bottom: 196px;
+  left: 248px;
+  z-index: 3;
+}
+img.green-bots {
+  position: absolute;
+  top: 307px;
+  left: -121px;
+  z-index: -1;
+}
+img.red-bots {
+  position: absolute;
+  top: 26px;
+  left: 391px;
+  z-index: -1;
+}
+img.Ellipse-15 {
+  position: absolute;
+  bottom: 316px;
+  left: 386px;
+}
+img.Ellipse-27 {
+  position: absolute;
+  bottom: 144px;
+  left: 102px;
+}
+img.Ellipse-26 {
+  position: absolute;
+  bottom: -347px;
+  left: 256px;
+}
+img.Ellipse-29 {
+  position: absolute;
+  bottom: 334px;
+  left: 1354px;
+}
+img.Ellipse-28 {
+  position: absolute;
+  bottom: -16px;
+  left: 1533px;
+}
+img.Ellipse-30 {
+  position: absolute;
+  bottom: -359px;
+  left: 1435px;
+}
