@@ -2,7 +2,18 @@
   width: 1920px;
   height: 1209px;
 }
-
+.background {
+  background: linear-gradient(
+    180deg,
+    rgba(236, 240, 253, 0) 0%,
+    rgba(236, 240, 253, 0.53) 14.32%,
+    #ecf0fd 45.83%,
+    rgba(236, 240, 253, 0.43) 84.33%,
+    rgba(236, 240, 253, 0) 100%
+  );
+  position: relative;
+  z-index: 1;
+}
 p.slogan-text {
   color: #272d4e;
   text-align: center;
@@ -21,6 +32,7 @@ p.slogan-text {
   box-shadow: 0px 18px 52.854px 0px rgba(215, 228, 249, 0.5);
   position: relative;
   display: block;
+  box-shadow: 0px 20px 10px gray;
 }
 
 .main-text {
@@ -53,33 +65,40 @@ img.red-bots {
   left: 391px;
   z-index: -1;
 }
+
 img.Ellipse-15 {
   position: absolute;
-  bottom: 495px;
+  top: 177px;
   left: 391px;
+  box-shadow: 0px 10px 10px gray;
 }
 img.Ellipse-27 {
   position: absolute;
-  bottom: 393px;
+  top: 392px;
   left: 102px;
+  box-shadow: 0px 10px 10px gray;
 }
 img.Ellipse-26 {
   position: absolute;
-  bottom: 39px;
+  top: 643px;
   left: 256px;
+  box-shadow: 0px 10px 10px gray;
 }
 img.Ellipse-29 {
   position: absolute;
-  bottom: 533px;
+  top: 106px;
   left: 1356px;
+  box-shadow: 0px 10px 10px gray;
 }
 img.Ellipse-28 {
   position: absolute;
-  bottom: 266px;
-  left: 1510px;
+  top: 355px;
+  right: 233px;
+  box-shadow: 0px 10px 10px gray;
 }
 img.Ellipse-30 {
   position: absolute;
-  bottom: -70px;
-  left: 1434px;
+  top: 707px;
+  right: 396px;
+  box-shadow: 0px 10px 10px gray;
 }
