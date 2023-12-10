@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 20px;
+}
+/*Первый блок*/
+.container {
+  width: 1920px;
+  height: 730px;
+  background: url("../content/Layout\ 6/Ellipse 1.png"), #000;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 92px;
+}
+.title {
+  color: #fff;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 100px;
+  font-weight: 500;
+  line-height: 100%;
+  text-transform: capitalize;
+
+  width: 596px;
+}
+.text h6.description {
+  color: #fff;
+  text-align: center;
+  font-family: "Futura PT", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  width: 420px;
+}
+.central {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.square__romb {
+  width: 319px;
+  height: 282px;
+  border-radius: 8px;
+  border: 1px solid #2f2e2e;
+
+  background: linear-gradient(
+      131deg,
+      rgba(255, 255, 255, 0.3) -19.06%,
+      rgba(255, 255, 255, 0) 31.37%
+    ),
+    #000;
+
+  box-shadow: 30px 30px 36px 0px rgba(21, 21, 21, 0.5) inset;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.square__romb img {
+  position: relative;
+}
+.square__romb-one,
+.square__romb-two,
+.square__romb-three,
+.square__romb-four {
+  position: absolute;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-size: 40px;
+  padding: 17px 31px;
+}
+.description {
+  color: #fff;
+  text-align: center;
+  font-family: "Futura PT", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.central > .black {
+  margin-left: 30px;
+}
+
+/*Второй блок*/
+.main-content {
+  width: 1920px;
+  height: 730px;
+  background: #000;
+  position: relative;
+}
+
+h3.main-content_text {
+  color: #fff;
+  text-align: center;
+  font-family: "Futura PT", sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  position: absolute;
+  top: 300px;
+  left: 493px;
+}
+
+.ellipse img {
+  background: url("../content/Layout\ 6/Ellipse 2.png") no-repeat;
+  position: absolute;
+  top: 176px;
+  left: 370px;
+}
+ins {
+  text-decoration-color: red;
+}
