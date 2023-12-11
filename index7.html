@@ -14,25 +14,59 @@
 
     <div class="container">
         <div class="text">
-              <h2 class="title">Данные получателя</h2>
-                <div class="full_name">
-                   <input type="text" id="name" name="human_surname" placeholder="Фамилия">
-                   <input type="text" id="name" name="human_name" placeholder="Имя">
-                   <input type="text" id="name" name="human_patronymic" placeholder="Отчество">
+
+              <h2 class="text">Данные получателя</h2>
+              
+                <label for="full__name"></label>
+                   <input type="text" id="full-name" name="human__surname" placeholder="Фамилия">
+                   <input type="text" id="full-name" name="human__name" placeholder="Имя">
+                   <input type="text" id="full-name" name="human__patronymic" placeholder="Отчество">
+
+                 <div>  
+                   <label for="people__phone"></label>
+                   <input type="tel" id="people__phone" name="human__figure" maxlength="13"  placeholder=" Номер телефона">
+                 </div>
+
+                
+
+                <h6 class="text__little">По этому номеру телефона мы свяжемся с вами 
+                    для подтверждения заказа</h6>
+
+                <div class="human__email">
+                    <label for="email"></label>
+                    <input type="email" id="email" name="human__email" placeholder="E-mail"  >  
                 </div>
 
+                <h6 class="text__little">На эту почту вам придет письмо с составом заказа,
+                     а так же трэк-номер для его отслеживания</h6>
 
 
+                    <label  for="foo"  class="label">
+                     <input type="checkbox" id="foo" class="checkbox">
+                     <span class="new__button"></span>
+                     <span class="text__checkbox">Подписаться на рассылку новинок и акций</span>
+                    </label>
+                
+                  
+                  
+                  <h2 class="title">Способ оплаты</h2>
 
+                 
+                    <label for="way" class="payment__method">
+                    <input type="radio" id="way" name="payment__option1" class="radio">
+                    <span class="new__button__radio"></span>
+                    <span class="text__radio">Оплата при получении наличными или картой</span>
+                    </label>
 
-
-
-
-          <input type="email" id="mail" name="student_email" >
-          <input type="password" id="password" name="student_password">
-          
-
-
+                 
+                    <label for="way" class="payment__method">
+                    <input checked type="radio" id="way" name="payment__option1" class="radio" >
+                    <span class="new__button__radio"></span>
+                    <span class="text__radio">Оплата банковской картой онлайн</span>
+                    </label>
+                 
+                 
+                 
 
      </form>
   </body>
