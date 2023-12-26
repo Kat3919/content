@@ -1,0 +1,15 @@
+{
+  "name": "layout-9",
+  "version": "1.0.0",
+  "description": "",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel", "build": "parcel build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sacc": "^0.0.1",
+    "sass": "^1.69.5"
+  }
+}
